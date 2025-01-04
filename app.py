@@ -57,4 +57,4 @@ def download_qr():
     return send_file(qr_code_file, as_attachment=True, download_name="qr_code.png", mimetype="image/png")
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
